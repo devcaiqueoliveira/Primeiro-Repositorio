@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width:device-width, initial-scale= 1.0">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Monte seu hamburguer</h1>
+        <form method="get" action="teste.jsp">
+           Seu Nome: <input type="text" name="nome"> 
+           <br>
+           <br>
+           Seu Email: <input type="email" name="email">
+           <br>
+           <br>
+           Tipo de Carne: <input type="radio" name="tipodecarne" value="bov">Bovina
+                          <input type="radio" name="tipodecarne" value="sui">Suina
+                          <input type="radio" name="tipodecarne" value="vegan">Vegana
+           <br>
+           <br>
+           Tamanho: <select name="tamanho">
+                     <option>Grande</option>
+                     <option>Medio</option>
+                     <option>Pequeno</option>
+           </select>
+           <br>
+           <br>
+           Adicionais: 
+           <input type="checkbox" name="bacon-extra" value="sim">Bacon Extra
+           <input type="checkbox" name="dobro-cheddar" value="sim">Dobro de Cheddar
+           <input type="checkbox" name="cebola-caramelizada" value="sim">Cebola Caramelizada
+           <br>
+           <br>
+           Data de Entrega:
+           <input type="date" name="data-entrega">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tentativa Solo</title>
+    </head>
+    <body>
+        <h1>Monte Seu Hamburguer</h1>
+        <form method="post" action="teste.jsp">
+        Nome: <input type="text">
+        <br>
+        <br>
+        Email: <input type="email">
+        <br>
+        <br>
+        Tipo de Carne: <input type="radio" name="tipodecarne" value="Bovina">Bovina
+        <input type="radio" name="tipodecarne" value="Suina">Suina
+        <input type="radio" name="tipodecarne" value="Vegana">Vegana
+        <br>
+        <br>
+        Tamanho: <select>
+            <option>Grande</option>
+            <option>Medio</option>
+            <option>Pequeno</option>
+        </select>
+        <br>
+        <br>
+        Adicionais: <input type="checkbox" name="dobro-cheddar" value="sim">Dobro de Cheddar
+        <input type="checkbox" name="bacon-extra" value="sim">Bacon Extra
+        <input type="checkbox" name="cebola-caramelizada" value="sim">Cebola Caramelizada
+        <br>
+        <br>
+        Data de Entrega: 
+        <input type="date" value="data-entrega">
+        <br>
+        <br>
+        Observação: <br><textarea name="mensagem" rows="5" cols="30"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+    </body>
+</html>
