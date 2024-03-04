@@ -10,11 +10,15 @@
                 padding: 0;
             }
             
-            #heading {
+            #heading div {
+                width: 80%;
                 background: red;
+                display: flex;
+                justify-content: space-between;
             }
             
-            #heading h1 {
+            #heading .h1 {
+                padding: 15px;
                 font-size: 20px;
                 text-transform: uppercase;
                 color: white;
@@ -32,9 +36,14 @@
     </head>
     <body>
         <header id="heading">
-            <h1>
+            <div>
+            <h1 class="h1">
                 <a href="#">Netflix</a>
             </h1>
+            <h2 class="h1">
+                <a href="#">Login</a>
+            </h2>
+        </div>
         </header>
     </body>
 </html>
