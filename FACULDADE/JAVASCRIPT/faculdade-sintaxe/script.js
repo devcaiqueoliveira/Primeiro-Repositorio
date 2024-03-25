@@ -1,3 +1,15 @@
+let paragrafo = document.querySelector("#para1");
+
+paragrafo.addEventListener("click",trocaTexto);
+
+
+
+function trocaTexto(){
+    paragrafo.innerHTML="ttt";
+}
+
+
+
 const nome= "Mario";
 console.log(nome);
 
@@ -26,3 +38,4 @@ else{
     console.log("Acesso bloqueado")
 }
 */
+
